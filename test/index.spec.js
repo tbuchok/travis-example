@@ -1,4 +1,4 @@
-var test = require('tap').test
+var test = require('testling')
 
 test('out travis and tap', function(t) {
   var result = true;
