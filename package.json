@@ -4,7 +4,10 @@
   "description": "Working on a Travis example with tap.",
   "main": "index.js",
   "scripts": {
-    "test": "tap ./test/*"
+    "test": "node ./test/*"
+  },
+  "devDependencies": {
+    "tape": "~0.2.2"
   },
   "repository": {
     "type": "git",
@@ -15,18 +18,28 @@
     "node",
     "travis"
   ],
-  "testling" : {
-    "files" : "test/*.js",
-    "browsers" : {
-      "ie" : [7,8,9],
-      "firefox" : [13],
-      "chrome" : [20],
-      "safari" : [5.1]
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [
+        7,
+        8,
+        9
+      ],
+      "firefox": [
+        13
+      ],
+      "chrome": [
+        20
+      ],
+      "safari": [
+        5.1
+      ]
     }
   },
   "author": "Tom Buchok <tom@buchok.com> (http://buchok.com/)",
   "license": "BSD",
   "dependencies": {
-    "tap": "~0.4.0"
+    "tape": "~0.2.2"
   }
 }
