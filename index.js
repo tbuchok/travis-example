@@ -1,1 +1,1 @@
-console.log('I am here for example purposes.')
+console.log('I am here for example purposes. View test/index.spec.js.')
